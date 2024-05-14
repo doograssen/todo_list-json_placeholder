@@ -23,10 +23,10 @@ export const App = () => {
 	return (
 		<div className="app">
 			<main className="app-main">
-				<h1 class="app-title">Team ToDo Example</h1>
+				<h1 class="app-title">Team ToDo List</h1>
 				<div className="app-container">
 					<h3 className="app-caption">
-						Everyone
+						Tasks
 					</h3>
 					{ isLoading
 						? <div className="loader"></div>
