@@ -14,6 +14,9 @@ export const App = () => {
 		.then((loadedTodos) => {
 			setTodoList(loadedTodos);
 		})
+		.catch((error) => {
+			console.error(error);
+		})
 		.finally(() => {
 			setIsLoading(false);
 			setRefreshTodoListFlag(false)
